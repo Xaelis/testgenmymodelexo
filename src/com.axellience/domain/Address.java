@@ -13,6 +13,9 @@ public class Address
 	protected String city;
 	
 	
+	protected Country country;
+	
+	
 	protected String street;
 	
 	
@@ -40,6 +43,12 @@ public class Address
 	
 	
 	
+	public Country getCountry() {
+		return this.country;	
+	}
+	
+	
+	
 	public String getStreet() {
 		return this.street;	
 	}
@@ -58,6 +67,12 @@ public class Address
 	
 	
 	
+	public void setCountry(Country myCountry) {
+		this.country = myCountry;	
+	}
+	
+	
+	
 	public void setStreet(String myStreet) {
 		this.street = myStreet;	
 	}
@@ -72,6 +87,12 @@ public class Address
 	
 	public void unsetCity() {
 		this.city = null;	
+	}
+	
+	
+	
+	public void unsetCountry() {
+		this.country = new Country();	
 	}
 	
 	
