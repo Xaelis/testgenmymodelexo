@@ -1,6 +1,4 @@
 package privateProject;
-import privateProject.mypackage2.MyClass;
-import privateProject.mypackage.MyClass;
 
 
 /**
@@ -9,7 +7,7 @@ import privateProject.mypackage.MyClass;
  * @generated
  */
 
-public class MyClass2
+public class MyClass4
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -19,21 +17,13 @@ public class MyClass2
 	 */
 	
 	public String attribute;
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public MyClass myClass;
 	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
 	 */
-	public MyClass2(){
+	public MyClass4(){
 		super();
 	}
 
